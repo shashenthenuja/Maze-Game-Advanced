@@ -20,7 +20,7 @@ In the text file, there are always 3 integers on every line. The first line ***a
 
 
 ## Undo Feature
-There is new command to undo the players movement. The key `U` allows the player to undo the steps taken when the player moves. This mechanism is developed with linkedlists which stores player's and snake's (see below) every movement.
+There is a new feature to undo the players movement. The key `U` allows the player to undo the steps taken when the player moves. This mechanism is developed with linkedlists which stores player's and snake's (see below) every movement.
 
 ## Enemy
 In this edition we introduce a new character `~` (tilde character) to represent the snake on the map. This snake will gradually go closer to bite the player. Once the player and the snake is on the same location, the player loses the game. 
